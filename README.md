@@ -64,7 +64,7 @@ isso irá baixar todas os conteiners que estão configurados no arquivo docker-c
 - Vá onde voce baixou o wiremock e use o seguinte comando
 
 ```
-java -jar wiremock-standalone-3.9.2 port=8082
+java -jar wiremock-standalone-3.9.2 --port 8082
 ```
 surgirão duas pastas, somente a mappings é importante no momento para nós
 dentro dela coloque os 2 proximos jsons
